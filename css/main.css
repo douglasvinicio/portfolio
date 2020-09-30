@@ -1,0 +1,86 @@
+
+/* ==========================================================================
+    Body / General 
+   ========================================================================== */
+   
+.container {
+    max-width: 800px;
+}
+
+/* ==== 
+Fonts
+ ==== */ 
+ 
+p {
+    font-family: Roboto Mono;
+    text-align: center;
+}
+
+.navbar-brand, .nav-link, h1, h2,h3,h4,h5,h6 {
+    font-family: 'Walter Turncoat', cursive;
+    text-align: center;
+} 
+
+
+/* ==== 
+Pictures  
+==== */ 
+
+#profile-picture {
+    width: 40px; 
+    margin-left: 10px; 
+    margin-right: 20px;
+}
+
+.nav-icon {
+    width: 18px;
+    margin-right: 5px;
+}
+
+#linkedin-icon {
+    width: 80px;
+}
+
+.especializations-image {
+    width: 80px;
+    height: auto;
+}
+
+.project-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-icon{
+    width: 50px;
+    margin-top: 20px;
+}
+
+
+/* ==========================================================================
+    Responsive Configurations 
+   ========================================================================== */
+
+
+@media (min-width: 768px){
+.navbar {
+    padding: 0% 15% 0% 15%;
+    }
+}
+
+@media(max-width:576px){
+#profile-picture {
+    width: 30px; 
+    }
+    .navbar-text {
+        display: block !important;
+    }
+} 
+
+@media(max-width:992px){
+    .navbar-text {
+        display: block !important;
+    }
+}
+
